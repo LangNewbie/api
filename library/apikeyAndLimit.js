@@ -8,7 +8,7 @@ module.exports = async function (req, res, next) {
 	let apikey = req.query.apikey;
 	if (!apikey) return res.json({
 		status: false,
-		creator: "Farhannnnn",
+		creator: "Lang",
 		message: "masukkan parameter apikey"
 	});
 	let users = await User.findOne({
