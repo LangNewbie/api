@@ -144,3 +144,5 @@ cron.schedule("0 0 * * *", async () => {
 	scheduled: true,
 	timezone: "Asia/Jakarta"
 });
+
+module.exports = app;
